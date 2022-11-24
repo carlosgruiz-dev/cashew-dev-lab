@@ -11,7 +11,8 @@ object Main {
   }
 
   def main(args: Array[String]): Unit = {
-    appendPar(document.body, "Hello, World!")
+      val node = document.getElementById("main-body")
+    appendPar(node, "Hello, World!")
   }
 }
 
