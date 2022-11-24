@@ -11,7 +11,7 @@ object Main {
   }
 
   def main(args: Array[String]): Unit = {
-    appendPar(document.body, "Hello, world!")
+    appendPar(document.body, "Hello, World!")
   }
 }
 
